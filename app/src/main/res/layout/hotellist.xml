@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/hotel_name"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:background="#5c1b1b1b"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:text="Test"
+                android:layout_alignBottom="@+id/image"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/hotel_contact"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:background="#5c1b1b1b"
+                android:alpha="0.8"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:text="Test"
+                android:layout_alignBottom="@+id/hotel_name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+</LinearLayout>

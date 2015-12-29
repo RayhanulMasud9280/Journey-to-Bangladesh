@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="inducesmile.com.androidnavigation" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SearchDivisionActivity"
+            android:label="@string/title_activity_search_division" >
+        </activity>
+
+        <activity
+            android:name=".SearchTypeActivity"
+            android:label="Location Type" >
+        </activity>
+
+        <activity
+            android:name=".LocationDetails"
+            android:label="@string/title_activity_location_details" >
+        </activity>
+
+        <activity
+            android:name=".NearestLocation"
+            android:label="@string/title_activity_nearest_location" >
+        </activity>
+
+        <activity
+            android:name=".TourOperator"
+            android:label="@string/title_activity_tour_operator" >
+        </activity>
+
+        <activity
+            android:name=".TourDetailsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".SearchHotelActivity">
+
+        </activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
